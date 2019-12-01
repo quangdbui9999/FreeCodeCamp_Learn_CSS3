@@ -1,0 +1,104 @@
+/*
+a{
+	font-size: 40px;
+	text-decoration: none;
+}
+
+body{
+	text-transform: uppercase;
+}
+
+h1{
+	--text-transform: uppercase;
+	text-transform: capitalize;
+	text-decoration: line-through;
+}
+
+.one{
+	--line-height: 1.5em;
+	--line-height: 2.5em;
+	line-height: 0.5em;
+}
+
+.two{
+	letter-spacing: 5px;
+	text-decoration: overline;
+	line-height: 2rem;
+}
+
+.three{
+	word-spacing: 20px;
+	text-decoration: underline;
+}
+*/
+
+
+
+
+
+/*
+font-stack generic-family
+serif, sans-serif, cursive, fantasy, monospace
+*/
+/*
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700i&display=swap');
+
+body{
+	--font-family: Helvetica;
+	--font-family: "Courier New", Courier, monospace;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	text-align: right;
+}
+
+.main{
+	font-family: 'Yesteryear', cursive;
+	text-align: center;
+}
+
+.subheading{
+	font-style: normal;
+}
+
+.one{
+	--font-weight: 700;
+	font-weight: bold;
+	--text-indent: 50px;
+	--text-indent: 100px;
+	text-indent: 3rem;
+}
+
+.two{
+	--font-weight: 900;
+	font-weight: lighter;
+	text-align: left;
+}
+
+
+h1{
+	--font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Yesteryear', cursive;
+}*/
+
+
+
+
+
+/* font-size, width, height, pixels */
+/*
+*{
+	margin: 0px;
+}
+
+.navbar{
+	background: blue;
+	height: 100px;
+	color: white;
+	font-size: 3rem;
+}
+
+.banner{
+	background: red;
+	min-height: calc(100vh - 100px);
+}
+*/

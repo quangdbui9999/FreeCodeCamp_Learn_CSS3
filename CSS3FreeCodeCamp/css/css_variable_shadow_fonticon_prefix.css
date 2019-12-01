@@ -1,0 +1,116 @@
+/*
+text-shadow
+box-shadow
+Link: https://css3gen.com/text-shadow/
+Link: https://www.cssmatic.com/box-shadow
+*/
+
+
+h1{
+	text-shadow: 7px 6px 4px rgba(88, 219, 139, 0.76);
+	--text-shadow: 1px 1px 10px red;
+	--text-shadow: 0px 3px 3px red;
+	--text-shadow: 1px 1px 3px red;
+}
+
+.box{
+	width: 200px;
+	height: 100px;
+	background: blue;
+	margin: 20px;
+	transition: all 0.8s ease-in-out;
+	--box-shadow: 3px 5px 5px green;
+	--box-shadow: 7px 6px 4px rgba(88, 219, 139, 0.76);
+}
+
+.box:hover{
+	-webkit-box-shadow: 20px 67px 8px -32px rgba(179,75,151,0.58);
+-moz-box-shadow: 20px 67px 8px -32px rgba(179,75,151,0.58);
+box-shadow: 20px 67px 8px -32px rgba(179,75,151,0.58);
+}
+
+
+
+
+
+/*
+ICONS
+Font-Awsome
+*/
+/*
+.fa-home {
+	color: green;
+}
+
+.social-icon {
+	font-size: 4rem;
+	color: blue;
+}
+*/
+
+
+
+
+
+
+/*
+CSS VARIABLES AKA Custom Properties
+hold a value and reuse it
+--varName: value
+property: var(--varName)
+
+scope:
+:root{} === glabal;
+element === local
+any property
+*/
+
+/*
+:root{
+	--primaryColor: #1313fa;
+	--secondColor: #f15025;
+	--mainTransition: all 0.4s linear
+}
+
+.heading{
+	color: var(--primaryColor);
+}
+
+.second-heading{
+	color: var(--primaryColor);
+	transition: var(--mainTransition);
+}
+
+.second-heading:hover{
+	color: var(--secondColor);
+}
+
+div{
+	--primaryRed: red;
+}
+
+.main-text{
+	color: var(--primaryRed);
+
+.third-heading{
+	color: var(--primaryRed);
+}
+*/
+
+/*
+.heading{
+	color: #f15025;
+}
+
+.text{
+	color: #32ff0e;
+}
+
+.main-text{
+	color: #1313fa;
+}
+
+.second-heading{
+	color: #f15025;
+}
+*/

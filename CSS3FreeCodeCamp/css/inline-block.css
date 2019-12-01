@@ -1,0 +1,82 @@
+/* Inline - Block */
+/*
+a{
+	font-size: 60px;
+	background: red;
+	margin: 30px;
+	display: inline-block;
+	--display: block;
+	--display: inline;
+}
+*/
+
+
+/*
+Block: Top Bottom Margin Respected;
+Inline: Top Bottom Margin Not Respected;
+Mobile Navbar
+list-style: property
+descendant; selectors
+*/
+/*
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+	list-style-type: none;
+	--list-style-type: upper-roman;
+	--list-style-type: square;
+}
+
+ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	background: #222;
+	color: #f15025;
+	padding: 10px 15px;
+	display: block;
+	--margin: 10px;
+}
+*/
+
+
+
+/*
+Default Display Property
+Block: always starts a new line and take full width;
+Inline: does not start and only take up as much as content space;
+*/
+/*
+body{
+	text-align: center;
+}
+
+.block{
+	background: blue;
+	color: white;
+	width: 150px;
+	margin: 20px auto;
+	--margin-left: auto;
+	--margin-right: auto;
+	--margin: 0 auto;
+
+
+	--display: inline;
+}
+
+.inline{
+	background: red;
+	color: white;
+
+
+	-- display: block;
+}
+*/

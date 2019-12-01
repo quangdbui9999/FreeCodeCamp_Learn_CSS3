@@ -1,0 +1,159 @@
+
+.item1{
+	background: LightSkyBlue;
+	grid-area: header;
+}
+
+.item2{
+	background: LightSalmon;
+	grid-area: advert;
+}
+
+.item3{
+	background: PaleTurquoise;
+	grid-area: content;
+	display: grid;
+	grid-template-columns: auto 1fr;
+}
+
+.item4{
+	background: lightpink;
+	grid-area: footer;
+}
+
+
+.container{
+	font-size: 1.5em;
+	min-height: 300px;
+	width: 100%;
+	background: lightgray;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px auto 1fr auto;
+	grid-template-areas: 
+		"header"
+		"advert"
+		"content"
+		"footer";
+}
+
+@media (min-width: 800px){
+	.container{
+		grid-template-columns: auto 1fr;
+		grid-template-rows: auto 1fr auto;
+		grid-template-areas: 
+			"advert header"
+			"advert content"
+			"advert footer";
+	}
+}
+
+@media (min-width: 1000px){
+	.container{
+		grid-template-columns: auto 1fr;
+		grid-template-rows: auto 1fr auto;
+		grid-template-areas: 
+			"header header"
+			"advert content"
+			"footer footer";
+	}
+}
+
+
+/*
+Symbol "." in grid-template-areas: empty-cell
+*/
+/*
+.d1{background: LightSkyBlue;}
+
+.d2{
+	background: LightSalmon;
+	--justify-self: center;
+	--justify-self: end;
+	--justify-self: start;
+}
+
+.d3{
+	background: PaleTurquoise;
+	--align-self: end;
+}
+
+.d4{background: LightPink;}
+.d5{
+	background: PaleGreen;
+	--grid-area: 3/1/4/4;
+	--grid-area: 1/1/2/4;
+
+	--grid-area: content;
+	--grid-area: advert;
+	--grid-area: footer;
+	--grid-area: header;
+	--grid-column: 2/4;
+	--grid-row: 2/4;
+}
+
+.container1{
+	font-size: 40px;
+	min-height: 300px;
+	width: 100%;
+	background: LightGray;
+	display: grid;
+	
+	grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.container2{
+	font-size: 40px;
+	min-height: 300px;
+	width: 100%;
+	background: LightGray;
+	display: grid;
+	
+	grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+*/
+
+/*
+.container{
+	font-size: 40px;
+	min-height: 300px;
+	width: 100%;
+	background: LightGray;
+	display: grid;
+	
+	grid-template-columns: repeat(3, minmax(60px,1fr));
+	--grid-template-columns: repeat(3, minmax(900px, 1fr));
+	--grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 10px;
+	--grid-template-columns: 1fr 1fr 1fr;
+	--grid-template-rows: 1fr 1fr 1fr;
+	
+
+	--grid-template-rows: repeat(2, 1fr 50px) 20px;
+	--grid-template-rows: 1fr 50px 1fr 50px 20px;
+	--grid-template-areas:
+		"header header header"
+		"advert content content"
+		"footer footer footer";
+	--grid-template-areas:
+		"header header header"
+		". content content"
+		"footer footer footer";
+
+	--align-items: end;
+	--justify-items: center;
+
+	--grid-gap: 10px 20px;
+	--grid-column-gap: 20px;
+	--grid-row-gap: 5px;
+	--grid-template-rows: 50px 50px;
+	--grid-template-columns: 1fr 100px 2fr;
+	--grid-template-columns: auto 50px 10% 2fr 1fr;
+	--grid-template-columns: 100px 100px 100px;
+}
+*/

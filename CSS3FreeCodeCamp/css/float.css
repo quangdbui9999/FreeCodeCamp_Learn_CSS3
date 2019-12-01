@@ -1,0 +1,90 @@
+
+/*
+Float Property Column Layout Example
+*/
+/*
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div{
+	float: left;
+	--height: 200px;
+	height: 400px;
+	width: 33.33%;
+}
+
+.one{
+	background: red;
+}
+
+.two{
+	background: blue;
+}
+
+.three{
+	background: green;
+}
+
+h1{
+	clear: left;
+}
+*/
+
+
+
+
+
+
+/*
+Intro float
+*/
+/*
+.banner{
+	border: 5px solid red;
+	padding: 10px;
+	text-align: justify;
+	--box-sizing: border-box;
+	overflow: hidden;
+}
+
+.one{
+	float: right;
+	margin-left: 60px;
+}
+
+
+
+
+.banner{
+	border: 5px solid red;
+	padding: 10px;
+	text-align: justify;
+	--box-sizing: border-box;
+}
+
+.one{
+	float: right;
+}
+
+.two{
+	float: left;
+	width: 1500px;
+	height: 1000px;
+}
+
+p{
+	--clear: left;
+	--clear: right;
+	clear: both;
+	--padding-top: 5px;
+}
+
+img{
+	--float: left;
+	float: right;
+	--padding-bottom: 5px;
+}
+*/
